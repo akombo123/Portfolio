@@ -5,14 +5,14 @@ const highlights = [
     icon: Code2,
     title: "Clean Code",
     description:
-      "I Write maintanable,scalable code that stands the test of time.",
+      "I Write maintainable,scalable code that stands the test of time.",
   },
 
   {
     icon: Rocket,
     title: "Performance",
     description:
-      "Optimizing for speed and delivering lightning-fast user expiriences.",
+      "Optimizing for speed and delivering lightning-fast user experiences.",
   },
 
   {

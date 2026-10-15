@@ -1,5 +1,6 @@
 import {
   ArrowRight,
+  Download,
   ChevronDown,
   LucideGitBranchPlus,
   Mail,
@@ -87,7 +88,10 @@ export const Hero = () => {
               <Button size="lg">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton />
+              <AnimatedBorderButton>
+                <Download className="w-5 h-5" />
+                Download CV
+              </AnimatedBorderButton>
             </div>
             {/* social links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
@@ -128,7 +132,7 @@ export const Hero = () => {
                 </div>
                 {/* stats badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">3+</div>
                   <div className="text-xs text-muted-foreground ">
                     Years Exp.
                   </div>
