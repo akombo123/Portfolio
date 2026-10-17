@@ -60,7 +60,7 @@ export const About = () => {
                 I specialize in React, Next.js, and TypeScript, building
                 everything from sleek landing pages to complex enterprise
                 applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                keen eye for design and perfect user experience.
               </p>
             </div>
 
