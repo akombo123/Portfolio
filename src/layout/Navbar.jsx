@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
-  { href: "#expirience", label: "Expirience" },
+  { href: "#experience", label: "Experience" },
   { href: "#testimonials", label: "Testimonials" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export const Navbar = () => {
@@ -47,7 +48,17 @@ export const Navbar = () => {
         </div>
         {/* Call to action  Button */}
         <div className="hidden md:block">
-          <Button size="sm"> Contact Me</Button>
+          <Button
+            size="sm"
+            onClick={() =>
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+          >
+            {" "}
+            Contact Me
+          </Button>
         </div>
         {/* mobile menu button */}
         <button
@@ -72,7 +83,14 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <Button onClick={() => setisMobileMenuOpen(false)}>
+            <Button
+              onClick={() => {
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" });
+                setisMobileMenuOpen(false);
+              }}
+            >
               {" "}
               Contact Me
             </Button>

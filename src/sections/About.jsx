@@ -62,11 +62,6 @@ export const About = () => {
                 applications. My approach combines technical excellence with a
                 keen eye for design and user experience.
               </p>
-              <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
-              </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
